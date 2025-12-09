@@ -1,4 +1,6 @@
 DATABASE_URL="postgresql://postgres:shrikengoda@localhost:5432/preflight_checklist"
+PORT=4000
+FRONTEND_URL=http://localhost:5173
 
 
 
