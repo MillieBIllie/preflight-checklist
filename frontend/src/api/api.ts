@@ -4,6 +4,7 @@ import axios from 'axios';
 // Backend API base URL - uses environment variable in production, localhost in development
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
 
+
 export interface ChecklistItemResponse {
   id: number;
   flightId: number | null;
